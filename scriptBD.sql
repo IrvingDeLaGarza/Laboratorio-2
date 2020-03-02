@@ -16,3 +16,7 @@ as
 begin
    insert into video values (@idVideo, @titulo,@repro,@url)
 end
+
+select *from video;
+
+EXEC sp_Video_insertar 1,'Video1',1,'youtube.com'

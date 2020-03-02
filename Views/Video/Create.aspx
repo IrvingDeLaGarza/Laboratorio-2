@@ -19,18 +19,18 @@
 
     <fieldset> 
 
-    <legend <Datos de Video> </legend>
+    <legend> Datos de Video </legend>
 
-    <label> ="idVideo">IdVideo </label>
+    <label for ="idVideo"> IdVideo </label>
     <input type= "text" name= "idVideo" />
 
-    <label> ="Titulo">titulo </label>
+    <label for ="Titulo"> titulo </label>
     <input type= "text" name= "titulo" />
 
-    <label> ="repro">reproducciones </label>
+    <label for  ="repro"> reproducciones </label>
     <input type= "text" name= "repro" />
 
-    <label> ="url">Url</label>
+    <label for ="url"> Url</label>
     <input type= "text" name= "url" />
 
     <input type ="submit" value="Registrar" />

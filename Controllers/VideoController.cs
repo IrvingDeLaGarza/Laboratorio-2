@@ -36,7 +36,7 @@ namespace MVCLaboratorio.Controllers
             // Guardar Video
             List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@idVideo", idVideo));
-            parametros.Add(new SqlParameter("@tirulo", titulo));
+            parametros.Add(new SqlParameter("@titulo", titulo));
             parametros.Add(new SqlParameter("@repro", repro));
             parametros.Add(new SqlParameter("@url", url));
             
