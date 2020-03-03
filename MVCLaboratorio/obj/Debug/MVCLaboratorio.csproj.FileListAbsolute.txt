@@ -1,0 +1,4 @@
+C:\Users\irvin\Desktop\MVCLaboratorio\bin\MVCLaboratorio.dll
+C:\Users\irvin\Desktop\MVCLaboratorio\bin\MVCLaboratorio.pdb
+C:\Users\irvin\Desktop\MVCLaboratorio\obj\Debug\MVCLaboratorio.dll
+C:\Users\irvin\Desktop\MVCLaboratorio\obj\Debug\MVCLaboratorio.pdb
