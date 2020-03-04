@@ -4,9 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-
-    <title>Registrar Video</title>
-     <meta charset="UTF-8">
+    <title>Video Que Deseas Eliminar</title>
+    <meta charset="UTF-8">
   <meta name="description" content="ASP.NET MVC 2 CRUD Video">
   <meta name="keywords" content="ASP.NET, MVC, Facpya">
   <meta name="author" content="IRVING RAMON DE LEON DE LA GARZA">
@@ -14,30 +13,20 @@
 
 </head>
 
-<body>
-    <form action="/Video/Create" method="post">
+-<body>
+    <form action="/Video/Delete" method="post">
 
     <fieldset> 
-    <font size="15px" color="blue"> 
 
-    <legend> Datos de Video </legend>
+    <legend> Video Que Deseas Eliminar </legend>
 
     <label for ="idVideo"> IdVideo </label>
     <input type= "text" name= "idVideo" />
 
-    <label for ="Titulo"> titulo </label>
-    <input type= "text" name= "titulo" />
-
-    <label for  ="repro"> reproducciones </label>
-    <input type= "text" name= "repro" />
-
-    <label for ="url"> Url</label>
-    <input type= "text" name= "url" />
-
-    <input type ="submit" value="Registrar" />
+    
+    <input type ="submit" value="Eliminar" />
     </fieldset>
-    </font>
+
     </form>
 </body>
-
 </html>
